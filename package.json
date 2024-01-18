@@ -7,7 +7,7 @@
     "build": "pnpm run build:client && pnpm run build:server",
     "build:client": "remix vite:build",
     "build:server": "vite build -c vite-server.config.ts",
-    "dev": "tsx ./server.tsx",
+    "dev": "tsx ./server.ts",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "cross-env NODE_ENV=production node ./server-build/server.js",
     "typecheck": "tsc"
